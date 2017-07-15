@@ -4,7 +4,7 @@ echo **************WARNING! WARNING! WARNING!********************
 echo *** You are about to clear the User directories for      ***
 echo *** Ableton Live and enable Sassafras licensing.         ***
 echo *** This will break Ableton if you are not careful.      ***
-echo ***						                              ***
+echo ***						      ***
 echo *** You must run this script as an administrator.        ***
 echo *** Use an elevated command prompt to execute.           ***
 echo ************************************************************

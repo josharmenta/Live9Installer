@@ -1,3 +1,6 @@
+rem Spiral 2: 10/29/17
+rem Spiral 2 includes clarifications in final authorization instructions. -jma
+
 @ECHO off
 cls
 echo **************WARNING! WARNING! WARNING!********************
@@ -51,11 +54,14 @@ for /d %%a in (*) do rd /s /q "C:\Users\%%a\AppData\Roaming\Ableton" >nul 2>&1
 
 echo Complete. The next steps are:
 echo 1. Launch Live.
-echo 2. Change core library to non floating location. Authorize Max4Live if installed.
-echo 3. Move library.cfg to the non floating location. Delete all other copies.
+echo 2. From Ableton Preferences, Change core library to 
+echo C:\ProgramData\Ableton\CommonConfiguration\Live %version%\Database
+echo 3. Authorize Max4Live if installed.
+echo 3. Move library.cfg to C:\ProgramData\Ableton\CommonConfiguration\Live %version%\Preferences
+echo Search for and delete all other copies.
 cd "C:\Users\%USERNAME%"
-echo This window will close in 60 seconds.
-TIMEOUT 60
+echo This window will close in 300 seconds.
+TIMEOUT 300
 GOTO EOF
 
 :eof

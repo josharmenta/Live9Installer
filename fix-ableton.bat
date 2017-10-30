@@ -57,7 +57,7 @@ echo 1. Launch Live.
 echo 2. From Ableton Preferences, Change core library to 
 echo C:\ProgramData\Ableton\CommonConfiguration\Live %version%\Database
 echo 3. Authorize Max4Live if installed.
-echo 3. Move library.cfg to C:\ProgramData\Ableton\CommonConfiguration\Live %version%\Preferences
+echo 4. Move library.cfg to C:\ProgramData\Ableton\CommonConfiguration\Live %version%\Preferences
 echo Search for and delete all other copies.
 cd "C:\Users\%USERNAME%"
 echo This window will close in 300 seconds.

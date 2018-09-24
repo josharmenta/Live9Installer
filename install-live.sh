@@ -48,7 +48,7 @@ name=${USERPATH:-/Users}
 echo $USERPATH
 
 # We need the version number. It keeps changing, so let's prompt for it.
-echo "Enter the Live Version Number you wish to install (e.g. 9.1.9)> "
+echo "Enter the Live Version Number you wish to install (e.g. 10.1.2)> "
 read VERSION
 
 # We should double-check, mistakes happen!
@@ -65,7 +65,7 @@ else
 	sleep 3
 
 	# Is Ableton already installed? If not, quit.
-	if [ ! -d "/Applications/Ableton Live 9 Suite.app" ]; then
+	if [ ! -d "/Applications/Ableton?" ]; then
 		echo "Ableton is not in the Applications folder. Installation will halt."
 		echo "Please move Ableton.app to /Applications and run script again."
 		exit 1

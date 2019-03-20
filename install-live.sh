@@ -4,7 +4,9 @@
 # and installs Ableton to use Sassafras
 # floating keys. Must be run as root.
 # jma 7/15/2017
-
+echo SPIRAL 10.0319192000
+sleep 5
+clear
 
 ROOT_UID=0     # Only users with $UID 0 have root privileges.
 E_NOTROOT=87   # Non-root exit error.

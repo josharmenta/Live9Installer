@@ -4,7 +4,7 @@
 # and installs Ableton to use Sassafras
 # floating keys. Must be run as root.
 # jma 7/15/2017
-echo SPIRAL 10.0319192000
+echo SPIRAL 10.032420191127
 sleep 5
 clear
 
@@ -67,7 +67,7 @@ else
 	sleep 3
 
 	# Is Ableton already installed? If not, quit.
-	if [ ! -d "/Applications/Ableton?" ]; then
+	if [ ! -d "/Applications/Ableton"* ]; then
 		echo "Ableton is not in the Applications folder. Installation will halt."
 		echo "Please move Ableton.app to /Applications and run script again."
 		exit 1

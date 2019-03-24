@@ -145,7 +145,7 @@ EOF
 	echo "Enter your password, wait for all the Packs to install, and come back to me..."
 	read -rsp $'Press enter to proceed...\n'
 		
-	open "/Applications/Ableton Live 9 Suite.app"
+	open "/Applications/Ableton"*
 
 	sleep 5
 	
